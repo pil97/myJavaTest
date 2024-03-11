@@ -11,5 +11,9 @@ public class PayMain3 {
         System.out.print("결제 방법을 선택해주세요 : ");
         String payName = scanner.nextLine();
         user.paySet(payName);
+
+
+        // 호출안되게 막을방법??? private?
+        DepositWithdraw.witDraw(1000);
     }
 }
